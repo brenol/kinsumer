@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/twitchscience/kinsumer/mocks"
+	"github.com/brenol/kinsumer/mocks"
 )
 
 func TestCheckpointer(t *testing.T) {
