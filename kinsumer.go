@@ -204,8 +204,6 @@ func (k *Kinsumer) startConsumers() error {
 	assigned := false
 
 	if k.thisClient >= len(k.shardIDs) {
-		// as there is already a consumer running, we should move from checkpoint onwards
-		k.fromCheckpoint = true
 		return nil
 	}
 
